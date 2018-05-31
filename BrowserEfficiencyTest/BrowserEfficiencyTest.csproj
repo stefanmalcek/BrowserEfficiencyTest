@@ -36,7 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ElevatorClient">
-      <HintPath>..\..\Elevator\ElevatorClient\bin\Debug\ElevatorClient.dll</HintPath>
+      <HintPath>..\..\Elevator-master\ElevatorClient\bin\Debug\ElevatorClient.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -83,6 +83,7 @@
     <Compile Include="Scenarios\InstagramNYPL.cs" />
     <Compile Include="Scenarios\IxlEighthGradeScience.cs" />
     <Compile Include="Scenarios\LinkedInSatya.cs" />
+    <Compile Include="Scenarios\MuniSearch.cs" />
     <Compile Include="Scenarios\NewselaChineseNewYear.cs" />
     <Compile Include="Scenarios\OfficeLauncher.cs" />
     <Compile Include="Scenarios\OfficePowerpoint.cs" />

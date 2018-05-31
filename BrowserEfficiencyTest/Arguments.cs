@@ -30,6 +30,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using BrowserEfficiencyTest.Scenarios;
 
 namespace BrowserEfficiencyTest
 {
@@ -747,6 +748,7 @@ namespace BrowserEfficiencyTest
             AddScenario(new BrainPopAvalanches());
             AddScenario(new RedditSurfaceSearch());
             AddScenario(new Idle());
+            AddScenario(new MuniSearch());
         }
 
         private void AddScenario(Scenario scenario)
